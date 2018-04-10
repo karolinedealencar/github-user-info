@@ -105,7 +105,6 @@ function createRepositoryMarkup(data) {
 }
 
 function renderUserMarkup(data) {
-    console.log(data)
     const markup = createProfileMarkup(data[0]) + createRepositoryMarkup(data[1]);
     userContainer.innerHTML = markup;
 }
