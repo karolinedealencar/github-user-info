@@ -23,6 +23,14 @@ img {
     margin: 0 auto;
 }
 
+@media (max-width: 615px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+
 .error-message {
     color: #DA3435;
     font-size: 1.6rem;
