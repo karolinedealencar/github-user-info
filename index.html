@@ -15,13 +15,18 @@
             <form class="header__form">
                 <label class="header__label">
                     <p class="header__p">Github User</p>
-                    <input class="header__input" type="text" placeholder="Put the username here">
+                    <input class="header__input" data-js="input" type="text" placeholder="Put the username here">
                 </label>
-                <button class="header__btn" type="button">
+                <button class="header__btn" data-js="btn" type="button">
                     Search
                 </button>
             </form>
         </div>
     </header>
+    <main class="main">
+        <div class="user container" data-js="user-container">            
+        </div>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
