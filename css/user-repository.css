@@ -2,6 +2,14 @@
     margin-top: 6rem;
 }
 
+@media (max-width: 615px) {
+
+    .user__repository {
+       margin-top: 2rem;
+    }
+
+}
+
 .user__repository__title {
     margin: 0;
     font-size: 1.6rem;
@@ -9,6 +17,14 @@
 
 .user__repository__list {
     padding-left: 2rem;
+}
+
+@media (max-width: 615px) {
+
+    .user__repository__list {
+        padding-left: 0;
+    }
+
 }
 
 .repository__item {
@@ -29,11 +45,19 @@
     align-items: center;
 }
 
+@media (max-width: 615px) {
+
+    .repository__header {
+        display: inherit;
+    }
+
+}
+
 .repository__title {
     margin: 0;
     margin-right: 1rem;
     color: var(--base-color);
-
+    word-wrap: break-word;
 }
 
 .repository__language,
@@ -42,6 +66,7 @@
     color: var(--base-color);
     font-size: 1rem;
 }
+
 
 .repository__language {
     margin-right: 1rem;
