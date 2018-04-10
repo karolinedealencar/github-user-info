@@ -1,0 +1,18 @@
+@import url("header.css");
+
+:root {
+    --contrast-color: #9f9f9f;
+    --base-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
