@@ -1,0 +1,48 @@
+.main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.user__avatar {
+    float: left;
+
+    height: 225px;
+    width: 225px;
+    margin-right: 1rem;
+
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.user__profile__info {
+    padding-top: 1rem;
+}
+
+.user__profile__name {
+    margin: 0;
+
+    color: var(--base-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.user__profile__login {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.user__profile__bio {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+.user__profile__p {
+    margin: 0;
+    margin-bottom: .4rem;
+    
+    font-size: 1rem;
+}
+
+.user__profile__feat {
+    font-weight: bold;
+}
