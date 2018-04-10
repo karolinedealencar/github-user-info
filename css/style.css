@@ -1,4 +1,6 @@
 @import url("header.css");
+@import url("user-profile.css");
+@import url("user-repository.css");
 
 :root {
     --contrast-color: #9f9f9f;
@@ -11,8 +13,19 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     width: 80%;
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.error-message {
+    color: #DA3435;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
 }
