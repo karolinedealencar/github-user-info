@@ -1,0 +1,61 @@
+.user__repository {
+    margin-top: 6rem;
+}
+
+.user__repository__title {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.user__repository__list {
+    padding-left: 2rem;
+}
+
+.repository__item {
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.repository__link {
+    display: block;
+    padding: 1.4rem;
+
+    text-decoration: none;
+    box-shadow: 0px 0px 4px 0px #9f9f9f;
+}
+
+.repository__header {
+    display: flex;
+    align-items: center;
+}
+
+.repository__title {
+    margin: 0;
+    margin-right: 1rem;
+    color: var(--base-color);
+
+}
+
+.repository__language,
+.repository__stars {
+    margin: 0;
+    color: var(--base-color);
+    font-size: 1rem;
+}
+
+.repository__language {
+    margin-right: 1rem;
+}
+
+.repository__stars {
+    display: flex;
+    align-items: center;
+}
+
+.repository__desc {
+    margin: 0;
+    margin-top: .4rem;
+
+    color: var(--base-color);
+    font-size: 1rem;
+}
